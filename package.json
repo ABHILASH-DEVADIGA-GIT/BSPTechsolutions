@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx vinxi dev",
-    "build": "npx vinxi build",
+    "build": "NITRO_PRESET=vercel npx vinxi build",
     "preview": "vinxi preview",
     "lint": "eslint .",
     "format": "prettier --write ."
