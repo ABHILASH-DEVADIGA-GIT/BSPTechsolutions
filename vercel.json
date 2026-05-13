@@ -1,5 +1,5 @@
 {
-  "buildCommand": "NITRO_PRESET=vercel npx vinxi build",
+  "buildCommand": "npx vite build",
   "outputDirectory": ".vercel/output",
   "installCommand": "npm install",
   "framework": null
