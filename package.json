@@ -4,8 +4,8 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
+    "dev": "npx vinxi dev",
+    "build": "npx vinxi build",
     "preview": "vinxi preview",
     "lint": "eslint .",
     "format": "prettier --write ."
@@ -79,6 +79,10 @@
     "prettier": "^3.7.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
-    "vite": "^7.3.1"
+    "vite": "^7.3.1",
+    "vinxi": "^0.5.3"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
